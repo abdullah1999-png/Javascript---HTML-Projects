@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+  <title>
+  DOM Projects
+  </title>
+   
+    </head>
+
+    <body>
+        <!--  
+    <p> Youtube Subscribe Button</p> 
+   
+   
+    <button onclick="
+   buttonTransition();  "
+    
+   
+   class="sub"
+   >  Subscribe  </button>
+   -->
+
+    
+   <p> Amazon shipping calculator</p>
+   <input placeholder="Cost of order" class="js" 
+   onkeydown=" handleCostKeyDown(event);
+   
+   "  >
+   <button onclick="calculateTotal();"    > Calculate</button>
+   
+   <p class="paragraph-display" >  </p>
+
+    
+<script>
+function handleCostKeyDown(event){
+    if (event.key ==='Enter'){
+        calculateTotal();
+
+
+    }
+}
+
+function calculateTotal(){
+   const inputElement=document.querySelector('.js');
+   let cost = Number( inputElement.value)
+   
+
+  if (cost < 40) {
+    cost = cost +10;
+   }
+
+   document.querySelector('.paragraph-display')
+   .innerHTML= ` ${cost} $`;
+
+}
+
+
+/*
+
+function buttonTransition (){
+ const subbutton = document.querySelector('.sub');
+   if (subbutton.innerText === 'Subscribe'){
+    subbutton.innerHTML ='Subscribed';
+   } else 
+   {
+    subbutton.innerHTML ='Subscribe'; 
+
+   }
+}*/
+
+
+
+
+
+
+</script>
+
+
+</body>
+
+
+
+   </html>
+
+    
+      
+
+   
+
+
+
+
+    
+      
+
+   
+
+

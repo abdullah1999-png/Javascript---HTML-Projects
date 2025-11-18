@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+  <style>
+.sub-button{
+ border:none;
+ padding: 10px 14px 10px 14px;
+ font-weight: bold;
+ background-color:black;
+ color:white;
+ border-radius: 20px;
+ cursor:pointer;
+ margin-bottom: 30px;
+}
+
+
+.add-sub{
+  background-color: #F0F0F0;
+  color:black;
+}
+body{
+  font-family:Arial;
+}
+
+.search-tab{
+ 
+  font-size: 15px;
+  padding:10px;
+}
+.calculate-button{
+  padding: 11px;
+  background-color: green;
+  color:white;
+  border:none;
+  font-size: 15px;
+}
+
+  </style>
+
+
+
+  <title>
+  DOM Projects
+  </title>
+   
+    </head>
+
+    <body>
+        
+    <p> Youtube Subscribe Button</p> 
+   
+   
+    <button onclick="
+   buttonTransition();  "
+    
+   
+   class="sub sub-button">Subscribe</button>
+   
+
+    
+   <p> Amazon shipping calculator</p>
+   <input placeholder="Cost of order" class="js search-tab" 
+   onkeydown=" handleCostKeyDown(event);
+   
+   "  >
+   <button onclick="calculateTotal();" class="calculate-button"  
+    > Calculate</button>
+   
+   <p class="paragraph-display" >  </p>
+
+    
+<script>
+function handleCostKeyDown(event){
+    if (event.key ==='Enter'){
+        calculateTotal();
+
+
+    }
+}
+
+function calculateTotal(){
+   const inputElement=document.querySelector('.js');
+   let cost = Number( inputElement.value)
+   
+
+  if (cost < 40) {
+    cost = cost +10;
+   }
+
+   document.querySelector('.paragraph-display')
+   .innerHTML= ` ${cost} $`;
+
+}
+
+
+
+
+function buttonTransition (){
+ const subbutton = document.querySelector('.sub');
+   if (subbutton.innerText === 'Subscribe'){
+    subbutton.classList.add('add-sub');
+    subbutton.innerHTML ='Subscribed';
+   } else 
+   {
+    subbutton.innerHTML ='Subscribe'; 
+    subbutton.classList.remove('add-sub');
+    
+
+   }
+}
+
+
+
+
+
+
+</script>
+
+
+</body>
+
+
+
+   </html>
+
+    
+      
+
+   
+
+
+
+
+    
+      
+
+   
+
+
