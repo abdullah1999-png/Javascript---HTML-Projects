@@ -1,2 +1,2 @@
-# Javascript---HTML-Projects 
-Projects made by me.
+# Javascript----Projects 
+Javascript projects that made by me
