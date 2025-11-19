@@ -27,7 +27,13 @@ Practical application of computer science concepts
 
 Demonstrated ability to learn and implement new technologies
 
+
+
+
 🚀 Projects
+
+
+
 Project 1: Interactive Website Structure
 Concepts Demonstrated: HTML5 Semantic Elements, CSS Layouts, DOM Basics
 
@@ -38,6 +44,8 @@ Created responsive layouts using CSS Grid/Flexbox
 Established foundation for web accessibility standards
 
 Academic Value: Demonstrates understanding of web standards and markup languages
+
+
 
 Project 2: E-commerce Cart System
 Concepts Demonstrated: Variable Management, State Tracking, User Input Handling
@@ -50,6 +58,8 @@ Handled user interactions for adding/removing items
 
 Academic Value: Shows practical application of state management in web applications
 
+
+
 Project 3: Boolean Logic Implementation
 Concepts Demonstrated: Boolean Algebra, Conditional Logic, Truth Tables
 
@@ -60,6 +70,9 @@ Implemented complex conditional statements
 Built logical decision-making systems
 
 Academic Value: Illustrates understanding of fundamental computer logic
+
+
+
 
 Project 4: Rock Paper Scissors Game
 Concepts Demonstrated: Function Design, Randomization, Game Logic
@@ -72,6 +85,9 @@ Developed score tracking and game state management
 
 Academic Value: Demonstrates algorithmic thinking and function composition
 
+
+
+
 Project 5: Object-Oriented Rock Paper Scissors
 Concepts Demonstrated: Object-Oriented Programming, Encapsulation, Methods
 
@@ -83,6 +99,9 @@ Created game manager object for orchestration
 
 Academic Value: Shows progression from procedural to object-oriented thinking
 
+
+
+
 Project 6: DOM Manipulation Techniques
 Concepts Demonstrated: DOM API, Array Methods, Iteration Patterns
 
@@ -93,6 +112,10 @@ Implemented array operations for data manipulation
 Created interactive elements through event handling
 
 Academic Value: Demonstrates understanding of client-side web programming
+
+
+
+
 
 Project 7: Task Management Application
 Concepts Demonstrated: CRUD Operations, Local Storage, Event Delegation
@@ -180,8 +203,7 @@ Individual → Integrated: Isolated functions to complete systems
 
 📞 Contact 923335045839
 📧 Email: afzaalabdullah83@gmail.con
-🐙 GitHub: Your GitHub Profile
-🎓 Student Portal: University Student Profile
+
 
 📄 Project Documentation
 Each project includes:
